@@ -1,0 +1,53 @@
+.consulting .consulting1{
+    width: 50%;
+}
+.consulting .consulting1 img{
+    width: 100%;
+}
+.education{
+    margin: 50px 0 30px 0;
+}
+.education .education1{
+  width: 50%;
+  margin-left: 50%;
+}
+.education .education1 img{
+    width: 100%;
+}
+@media only screen and (max-width:512px){
+.line{
+    width: 50px;
+    margin-top: 20px;
+    border-top: 2px solid blue;
+    margin-left: 47%;
+}
+}
+@media only screen and (min-width:512px){
+    .line{
+        width: 50px;
+        margin-top: 20px;
+        border-top: 2px solid blue;
+        margin-left: 41%
+}
+.contact{
+    margin-left: 8.3%;
+}
+}
+@media only screen and (min-width:1024px){
+    .line{
+        width: 50px;
+        margin-top: 20px;
+        border-top: 2px solid blue;
+        margin-left: 49%
+    }
+    .contact{
+        margin-left: 0%;
+    }
+    .contact1{
+        margin-left: 16.6%;
+    }
+    .consulting .consulting1{
+        width: 33.3%;
+        margin-left: 16.6%;
+    }
+}

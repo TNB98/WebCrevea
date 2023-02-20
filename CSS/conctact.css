@@ -1,0 +1,31 @@
+.line{
+    width: 30px;
+    border-top:1px solid blue ;
+    margin:20px 0 ;
+    margin-left: 48%;
+}
+.button button{
+    background-color:#ffb400;
+}
+@media only screen and (max-width:516px){
+   .img-map .tablet{
+       display: none;
+   }
+   .img-map .pc {
+    display: none;
+}
+}
+@media only screen and (min-width:516px){
+    .img-map .sp, .pc{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .img-map .sp, .tablet{
+        display: none;
+    }
+    .img-map .pc{
+        display: block;
+    }
+ }

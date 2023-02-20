@@ -1,0 +1,147 @@
+/*****************footer*****/
+.footer{
+    background-color: black;
+    color: cornsilk;
+}
+.footer .footer-link ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    list-style-type: none;
+}
+.footer .footer-languge ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    list-style-type: none;
+}
+/**********css bussness *************/
+.busuness .bs2 .img-bs2{
+    display: flex;
+    position:absolute;
+    padding: 0;
+}
+.busuness .bs2{
+    padding: 0;
+    margin: 0 0 0 0;
+    height: 100%;
+    background-image: url(https://i.imgur.com/YE6srBq.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.busuness .bs2 ul{
+    list-style-type: none;
+
+}
+.busuness .img-bs1{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+/************color-text-busuness*********/
+.busuness .bs2{
+    color: cornsilk;
+}
+/*******line-h5-busuness********/
+.Our-busuness-h2{
+    display: flex;
+    margin-left: 20%;
+}
+.Our-busuness-h2 .line{
+    width: 50px;
+    border-top: 3px solid blue;
+    margin-top: 15px;
+}
+.Our-busuness-h2 h5{
+    float: left;
+    margin-left: 10px;
+}
+/***************icon-busuness**************/
+.busuness .bs2 .img-bs2{
+    border-radius: 50%;
+    left: 15px;
+}
+/*************STYLE LINK****************/
+a{
+    text-decoration: none;
+}
+/*******************line*********************/
+.about-us-h2{
+    display: flex;
+}
+.about-us-h2 .line{
+    width: 50px;
+    border-top: 3px solid blue;
+    margin-top: 15px;
+}
+.about-us-h2 h2{
+    float: left;
+    margin-left: 10px;
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+.about{
+    margin: 100px 0;
+}
+/***************news***********/
+.news a{
+    color: black;
+}
+.news .new2{
+    border: 1px solid black;
+    margin: 5px;
+}
+/*************label-send massger**************/
+.content .content1 .send-massage{
+    width:150px;
+    margin: auto;
+    height: 30px;
+    background-color: orange;
+    color: cornsilk;
+    margin-bottom: 50px;
+              
+}
+.content .content1 .send-massage label{
+    margin: auto;
+}
+/*************footer************/
+.footer{
+    margin-top: 50px;
+}
+.footer ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer ul{
+    list-style-type: none;
+}
+.foter2{
+    background-color: black;
+    color: cornsilk;
+
+}
+.footer .footer-form{
+    border-bottom:1px solid cornsilk ;
+    border-radius: 15px;
+    margin:0 20px;
+}
+.footer .footer-form .form-footer1{
+    background-color: black;
+    border:0px;
+}
+.footer .footer-form .form-footer2{
+    margin-right:2px ;
+}
+/********line-News-h2 *********/
+.content-new .News-h5 .line{
+    width: 50px;
+    border-top: 2px solid blue;
+    margin-top: 15px;
+}
+.content-new .News-h5 h5{
+    display: flex;
+    margin-left: 20px;
+    float: left;
+}
+.content-new .News-h5{
+    display: flex;
+}

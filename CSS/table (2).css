@@ -1,0 +1,79 @@
+@media only screen and (max-width: 576px) {
+    .navbar-brand{
+        color: blue !important;
+    }
+}
+/**style ipad**/
+@media only screen and (min-width: 576px) {
+/******nav************/
+    .navbar{
+        background-color: #0d6efd;
+    }
+    .nav-item .nav-link{
+        color: cornsilk !important;
+        margin: 0!important;
+        padding: 10px;
+    }
+    .nav-item{
+        margin: 0!important;
+    }
+    #home a{
+        color: yellow !important;
+        margin: 0!important;
+    }
+    .navbar-brand{
+        margin-left: 8.3% !important ;
+        color: cornsilk !important;
+    }
+    .icon{
+        margin-right: 8.3% !important;
+    }
+/**********about-us****************/
+.about .doc{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.about .img-about{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+/***********css news*************/
+.news .new2-1 {
+    margin-left:10% ;
+    height: 100%;
+
+}
+.news .new2 {
+    height: 100%;
+}
+/*
+.news .new-line{
+    border-bottom:1px solid black  ;
+}
+*/
+/************busuness-a**************/
+.busuness .bs2 li a{
+    color: cornsilk;
+    margin:15px;
+    font-size :25px;
+}
+.busuness .bs2 li{
+    margin-left: 20%;
+}
+/*********content***********/
+.content .content1 form input{
+    display: flex;
+    width: 100%;
+}
+.content .content1 form textarea{
+    width: 100%;
+}
+.content{
+    margin: 30px 0;
+}
+
+.footer .footer-form .form-footer2{
+    float: right ;
+    margin-right:10px ;
+}
+}

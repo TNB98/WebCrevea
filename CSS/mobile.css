@@ -1,0 +1,72 @@
+@media only screen and (max-width: 576px) {
+.navbar-brand{
+        color: blue !important;
+}
+/********line-about us-h2 *********/
+.about-us-h2 .line{
+        width: 50px;
+        border-top: 2px solid blue;
+        margin-top: 15px;
+}
+/********line-Our-busuness-h2 *********/
+.Our-busuness-h2 .line{
+        width: 50px;
+        border-top: 2px solid white;
+        margin-top: 15px;
+}
+.Our-busuness-h2{
+        display: flex;
+        margin-left: 20%;
+}
+/***************icon-busuness**************/
+.busuness .bs2 .img-bs2{
+    left: 30px;
+}
+.busuness .bs2 li{
+    margin-left: 20%;
+}
+/************busuness-a**************/
+.busuness .bs2 li a{
+    color: cornsilk;
+    margin: 15px;
+    font-size:25px;
+}
+/********line-News-h2 *********/
+.content-new .News-h5 .line{
+    width: 50px;
+    border-top: 2px solid blue;
+    margin-top: 15px;
+}
+.content-new .News-h5 h5{
+    display: flex;
+    margin-left: 20px;
+    float: left;
+}
+.content-new .News-h5{
+    display: flex;
+}
+/*************new***************/
+.news .new2{
+    margin: 5px 0;
+}
+/*********content***********/
+.content .content1{
+    margin-top: 150px;
+}
+.content .content1 form input{
+    display: flex;
+    width: 100%;
+}
+.content .content1 form textarea{
+    width: 100%;
+}
+.footer .footer-crevea{
+    margin-top: 50px;
+}
+.footer .footer-form{
+    margin-bottom: 10px;
+}
+.busuness .bs2 .img-bs2 {
+    width: 20%;
+}
+}
